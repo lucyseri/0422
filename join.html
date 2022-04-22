@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>join</title>
+  <script src="js/jq_header.js" defer></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="css/pages/join.css">
+</head>
+<body>
+  <div class="header">
+    <div class="top-nav">
+      <div class="top-header">
+        <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+        <form action="#" method="post" id="searchForm">
+          <div class="search">
+            <input type="text" name="userSearch" class="userSearch" placeholder="검색어를 입력해 주세요">
+            <button class="chBtn" type="submit"></button>
+            <!-- <input type="button" value="검색" class="chBtn">                 -->
+          </div>
+        </form>
+        <div class="goto">
+          <ul>
+            <li><a href="login.html">로그인</a></li>
+            <li><a href="join.html">회원가입</a></li>
+            <li><a href="#"><img src="img/icon_cart.png" alt="list"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-nav">
+      <div class="bottom-header">
+        <div class="gnb">
+          <ul>
+            <li>
+              <a href="">TVING ORIGINAL</a>
+              <ul class="sub">
+                <li><a href="#">술꾼도시여자들</a></li>
+                <li><a href="#">환승연애</a></li>
+                <li><a href="#">스프링캠프</a></li>
+                <li><a href="#">여고추리반</a></li>
+                <li><a href="#">ALL</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">드라마</a>
+              <ul class="sub">
+                <li><a href="#">멜랑꼴리아</a></li>
+                <li><a href="#">어사와조이</a></li>
+                <li><a href="#">갯마을 차차차</a></li>
+                <li><a href="#">사랑의 불시착</a></li>
+                <li><a href="#">ALL</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">예능</a>
+              <ul class="sub">
+                <li><a href="#">라켓보이즈</a></li>
+                <li><a href="#">DTCU</a></li>
+                <li><a href="#">윤스테이</a></li>
+                <li><a href="#">유퀴즈온더블럭</a></li>
+                <li><a href="#">ALL</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">애니/캐릭터</a>
+              <ul class="sub">
+                <li><a href="#">겨울왕국</a></li>
+                <li><a href="#">도라에몽</a></li>
+                <li><a href="#">라인프렌즈</a></li>
+                <li><a href="#">신비아파트</a></li>
+                <li><a href="#">ALL</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="">아티스트</a>
+              <ul class="sub">
+                <li><a href="#">KCON:TACT3</a></li>
+                <li><a href="#">BTS</a></li>
+                <li><a href="#">내일은 미스터트롯</a></li>
+                <li><a href="#">양준일</a></li>
+                <li><a href="#">ALL</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="bottom-back"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="inner-container">
+      <div class="join-container">
+        <h1 class="title">CJ ONE 통합 회원가입</h1>
+        <div class="form-con">
+          <form action="#" method="post">
+            <ul>
+              <li>
+                <input type="text" id="userName" name="userName" placeholder="이름">
+              </li>
+              <li>
+                <input type="text" id="userId" name="userId"placeholder="아이디">
+              </li>
+              <li>
+                <input type="text" id="userPw" name="userPw" placeholder="비밀번호">
+              </li>
+              <li class="phone">
+                <select name="usePhone" class="userPhone">
+                  <option value="0" selected>전화번호</option>
+                  <option value="010">010</option>
+                  <option value="011">011</option>
+                </select>
+                <input type="text" class="userPhone" name="userPhone" maxlength="8">
+              </li>
+              <li>
+                <input type="email" id="userEmail" name="userEmail"  placeholder="이메일">
+              </li>
+              <li>
+                <input type="button" id="joinBtn" value="가입완료">
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="top-footer">
+      <div class="top-fcon">
+        <span>고객센터</span>
+        <span>이용약관</span>
+        <span>개인정보처리방침</span>
+        <span>청소년보호정책</span>
+        <span>제휴/입점/광고/문의</span>
+      </div>
+    </div>
+    <div class="bottom-footer">
+      <div class="bottom-fcon">
+        <p>대표이사 : YANG JIEUL | 사업자정보확인 | 개인정보관리책임자 고창남 | 사업자등록번호 188-88-01893 | 통신판매신고번호 2020서울마포3641호
+          <br>
+          서울 마포구 상암산로 34(상암동, DMC디지털큐브) 주식회사 티빙 | 호스팅제공자:CJ올리브네트웍스 | 고객센터 1670-1525(평일 09시 ~ 18시) | 대표메일
+          tving.mall@cj.net</p>
+        <p>Copyright TVING All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
